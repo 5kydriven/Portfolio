@@ -38,9 +38,10 @@
     display: flex;
     flex-direction: column;
     gap: 1em;
-    list-style: '\1F44D';
+    /* list-style: '\1F44D'; */
     padding-left: 1em;
     flex: 1;
+    list-style: none;
 }
 
 .about__list {
@@ -48,10 +49,10 @@
     color: var(--clr-slate600);
 }
 
-.about__list::before {
+/* .about__list::before {
     content: '';
     margin-left: 0.5em;
-}
+} */
 
 /* xs */
 @media (min-width: 475px) {
